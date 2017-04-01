@@ -109,7 +109,7 @@ colnames(regressors)[re_];
 re_xx <- cbind(1, regressors[,re_]);
 
 sum((yy_test - re_xx %*% solve(t(re_xx) %*% re_xx) %*% t(re_xx) %*% yy_test)^{2}) / n;#Sample size nomalized sum of square error
-#The results are the relevent variables. Numbers follows a dash mean power.
+#The results are the relevent variables. Numbers preceding a dash mean power.
 
 
 #Remark:
