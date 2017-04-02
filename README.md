@@ -12,3 +12,7 @@ process.
 
 After running the nonlinearOGA.r file, you can test the algorithm by running 
 example file. Currently the algorithm is written in the example files.
+
+I use
+http://tabstospaces.com/
+to convert tabs into spaces. All files are kept in 4 spaces indentents.
